@@ -15,7 +15,7 @@ A naive developer might say 3 different slices:
 But a single slice of state is all that's needed here: the count!
 The other things can simply be _derived_ from the count itself.
 
-STEP 0:
+STEP 0
   Start by studying the component below, and importing the state hook.
 
 STEP 1:
