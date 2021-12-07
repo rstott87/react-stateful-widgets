@@ -26,6 +26,7 @@ export default function Squares() {
   // of the currently active square. On page load there's no active square,
   // so the value of 'activeSquare' should be null.
 
+  // eslint-disable-next-line no-unused-vars
   const [squares, holdSquares ] = useState (listOfSquareIds);
   const [activeSquare, setActive] = useState(null)
 
